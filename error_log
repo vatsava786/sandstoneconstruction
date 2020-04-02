@@ -1,0 +1,89 @@
+[31-Oct-2018 16:03:35 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/sandman/public_html/contact-email.php on line 4
+[30-Nov-2019 08:49:55 UTC] PHP Warning:  require(sendgrid-php/vendor/autoload.php): failed to open stream: No such file or directory in /home/sandman/public_html/submitContact.php on line 19
+[30-Nov-2019 08:49:55 UTC] PHP Fatal error:  require(): Failed opening required 'sendgrid-php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/sandman/public_html/submitContact.php on line 19
+[30-Nov-2019 08:50:29 UTC] PHP Warning:  require(sendgrid-php/vendor/autoload.php): failed to open stream: No such file or directory in /home/sandman/public_html/submitContact.php on line 19
+[30-Nov-2019 08:50:29 UTC] PHP Fatal error:  require(): Failed opening required 'sendgrid-php/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/sandman/public_html/submitContact.php on line 19
+[30-Nov-2019 08:52:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SendGrid\Mail\mb_convert_encoding() in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php:88
+Stack trace:
+#0 /home/sandman/public_html/sendgrid-php/lib/mail/Content.php(44): SendGrid\Mail\Content->setValue('and easy to do ...')
+#1 /home/sandman/public_html/sendgrid-php/lib/mail/Mail.php(1088): SendGrid\Mail\Content->__construct('text/plain', 'and easy to do ...')
+#2 /home/sandman/public_html/submitContact.php(24): SendGrid\Mail\Mail->addContent('text/plain', 'and easy to do ...')
+#3 {main}
+  thrown in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php on line 88
+[30-Nov-2019 08:53:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SendGrid\Mail\mb_convert_encoding() in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php:88
+Stack trace:
+#0 /home/sandman/public_html/sendgrid-php/lib/mail/Content.php(44): SendGrid\Mail\Content->setValue('and easy to do ...')
+#1 /home/sandman/public_html/sendgrid-php/lib/mail/Mail.php(1088): SendGrid\Mail\Content->__construct('text/plain', 'and easy to do ...')
+#2 /home/sandman/public_html/submitContact.php(24): SendGrid\Mail\Mail->addContent('text/plain', 'and easy to do ...')
+#3 {main}
+  thrown in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php on line 88
+[30-Nov-2019 08:54:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SendGrid\Mail\mb_convert_encoding() in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php:88
+Stack trace:
+#0 /home/sandman/public_html/sendgrid-php/lib/mail/Content.php(44): SendGrid\Mail\Content->setValue('and easy to do ...')
+#1 /home/sandman/public_html/sendgrid-php/lib/mail/Mail.php(1088): SendGrid\Mail\Content->__construct('text/plain', 'and easy to do ...')
+#2 /home/sandman/public_html/submitContact.php(24): SendGrid\Mail\Mail->addContent('text/plain', 'and easy to do ...')
+#3 {main}
+  thrown in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php on line 88
+[30-Nov-2019 09:03:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SendGrid\Mail\mb_convert_encoding() in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php:88
+Stack trace:
+#0 /home/sandman/public_html/sendgrid-php/lib/mail/Content.php(44): SendGrid\Mail\Content->setValue('and easy to do ...')
+#1 /home/sandman/public_html/sendgrid-php/lib/mail/Mail.php(1088): SendGrid\Mail\Content->__construct('text/plain', 'and easy to do ...')
+#2 /home/sandman/public_html/submitContact.php(25): SendGrid\Mail\Mail->addContent('text/plain', 'and easy to do ...')
+#3 {main}
+  thrown in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php on line 88
+[30-Nov-2019 09:07:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SendGrid\Mail\mb_convert_encoding() in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php:88
+Stack trace:
+#0 /home/sandman/public_html/sendgrid-php/lib/mail/Content.php(44): SendGrid\Mail\Content->setValue('and easy to do ...')
+#1 /home/sandman/public_html/sendgrid-php/lib/mail/Mail.php(1088): SendGrid\Mail\Content->__construct('text/plain', 'and easy to do ...')
+#2 /home/sandman/public_html/submitContact.php(26): SendGrid\Mail\Mail->addContent('text/plain', 'and easy to do ...')
+#3 {main}
+  thrown in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php on line 88
+[30-Nov-2019 09:08:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SendGrid\Mail\mb_convert_encoding() in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php:88
+Stack trace:
+#0 /home/sandman/public_html/sendgrid-php/lib/mail/Content.php(44): SendGrid\Mail\Content->setValue('and easy to do ...')
+#1 /home/sandman/public_html/sendgrid-php/lib/mail/Mail.php(1088): SendGrid\Mail\Content->__construct('text/plain', 'and easy to do ...')
+#2 /home/sandman/public_html/submitContact.php(26): SendGrid\Mail\Mail->addContent('text/plain', 'and easy to do ...')
+#3 {main}
+  thrown in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php on line 88
+[30-Nov-2019 09:09:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SendGrid\Mail\mb_convert_encoding() in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php:88
+Stack trace:
+#0 /home/sandman/public_html/sendgrid-php/lib/mail/Content.php(44): SendGrid\Mail\Content->setValue('and easy to do ...')
+#1 /home/sandman/public_html/sendgrid-php/lib/mail/Mail.php(1088): SendGrid\Mail\Content->__construct('text/plain', 'and easy to do ...')
+#2 /home/sandman/public_html/submitContact.php(26): SendGrid\Mail\Mail->addContent('text/plain', 'and easy to do ...')
+#3 {main}
+  thrown in /home/sandman/public_html/sendgrid-php/lib/mail/Content.php on line 88
+[30-Nov-2019 11:37:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sandman/public_html/submitContact.php:1) in /home/sandman/public_html/FlashMessages.php on line 304
+[30-Nov-2019 11:39:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sandman/public_html/submitContact.php:1) in /home/sandman/public_html/FlashMessages.php on line 304
+[30-Nov-2019 11:40:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sandman/public_html/submitContact.php:1) in /home/sandman/public_html/submitContact.php on line 80
+[30-Nov-2019 11:47:52 UTC] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /home/sandman/public_html/submitContact.php on line 60
+[30-Nov-2019 11:50:48 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/submitContact.php on line 60
+[30-Nov-2019 11:51:33 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/submitContact.php on line 62
+[30-Nov-2019 11:53:52 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/submitContact.php on line 64
+[30-Nov-2019 11:58:33 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/contact.php on line 22
+[30-Nov-2019 11:58:37 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/contact.php on line 22
+[30-Nov-2019 11:58:48 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/contact.php on line 22
+[30-Nov-2019 11:59:09 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/contact.php on line 21
+[30-Nov-2019 11:59:10 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/contact.php on line 21
+[30-Nov-2019 11:59:11 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sandman/public_html/contact.php on line 21
+[02-Dec-2019 07:12:00 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sandman/public_html/submitContact.php on line 90
+[02-Dec-2019 07:16:02 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/sandman/public_html/submitContact.php on line 90
+[02-Dec-2019 07:17:57 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/sandman/public_html/submitContact.php on line 93
+[02-Dec-2019 07:18:54 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/sandman/public_html/submitContact.php on line 93
+[02-Dec-2019 07:21:58 UTC] PHP Warning:  require_once(swift/swift_required.php): failed to open stream: No such file or directory in /home/sandman/public_html/contact.php on line 4
+[02-Dec-2019 07:21:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'swift/swift_required.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/sandman/public_html/contact.php on line 4
+[02-Dec-2019 07:22:45 UTC] PHP Warning:  include(swift/swift_required.php): failed to open stream: No such file or directory in /home/sandman/public_html/contact.php on line 4
+[02-Dec-2019 07:22:45 UTC] PHP Warning:  include(): Failed opening 'swift/swift_required.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/sandman/public_html/contact.php on line 4
+[02-Dec-2019 07:23:12 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/sandman/public_html/contact.php on line 34
+[02-Dec-2019 07:23:44 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/sandman/public_html/contact.php on line 34
+[02-Dec-2019 07:23:59 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/sandman/public_html/contact.php on line 34
+[02-Dec-2019 07:26:24 UTC] PHP Warning:  include(swift/swift_required.php): failed to open stream: No such file or directory in /home/sandman/public_html/contact.php on line 4
+[02-Dec-2019 07:26:24 UTC] PHP Warning:  include(): Failed opening 'swift/swift_required.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/sandman/public_html/contact.php on line 4
+[31-Jan-2020 13:30:10 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/sandman/public_html/submitContact.php on line 93
+[03-Feb-2020 08:57:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home/sandman/public_html/contact.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sandman/public_html/contact.php on line 53
+[03-Feb-2020 08:57:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home/sandman/public_html/contact.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sandman/public_html/contact.php on line 53

@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+}
+.wp-block-separator {
+    margin: 1.65em 0;
+}
+
+.wp-block-quote.is-large, 
+.wp-block-quote.is-style-large {
+  padding: 0 25px;
+  margin:35px 0;
+}
+
+.wp-block-pullquote {
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0;
+}
+
+.wp-block-pullquote.alignright blockquote, 
+.wp-block-pullquote.alignleft blockquote,
+blockquote {
+    margin: 0;
+    padding: 10px 15px;
+    border-width: 3px;
+    border-bottom: 3px;
+    background-color: #f9f9f9;
+}

@@ -270,12 +270,8 @@ a:focus, button:focus, .btn:focus,
 	padding: 0;
 }
 .centered > h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
     font-size: 53px;
-    
     padding: 10px;
 }
 .text{

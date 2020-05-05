@@ -272,7 +272,7 @@ a:focus, button:focus, .btn:focus,
 .centered > h1 {
 
     font-size: 53px;
-    padding: 10px;
+   
 }
 .text{
     background-color: #f58a2e;
@@ -291,7 +291,7 @@ a:focus, button:focus, .btn:focus,
   transform: translate(-50%, -50%);
 	color: white;
 	background-color: #0000008f;
-    padding: 20px;
+    padding: 5px;
  
 }
 

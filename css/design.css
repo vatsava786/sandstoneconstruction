@@ -94,6 +94,9 @@ color:#ED863F;
     display: table;
     content: '';
 }
+.list-inline>li{
+    margin: 10px 15px;
+}
 .slick-track:after
 {
     clear: both;
@@ -144,6 +147,6 @@ color:#ED863F;
     display: none;
 }
 .beowext{
-    background-color: brown;
+    background-color:#460606;
     padding: 10px 8px;
 }
